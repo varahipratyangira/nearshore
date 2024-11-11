@@ -13,16 +13,6 @@ variable "location" {
   type        = string
 }
 
-variable "website_bucket_name" {
-  description = "Unique name for the website bucket"
-  type        = string
-}
-
-variable "access_logs_bucket_name" {
-  description = "Unique name for the access logs bucket"
-  type        = string
-}
-
 variable "gcp_credentials_file" {
   description = "Path to GCP credentials JSON file"
   type        = string
